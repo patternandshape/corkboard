@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background: url("../img/corkboard.jpg");
+  background-repeat: repeat;
+}
+.container {
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  width: 1000px;
+}
+
+.polaroid {
+  margin-top: 210px;
+  position: absolute;
+}
+
+.cat {
+  margin-top: 320px;
+  margin-left: 130px;
+  position: absolute;
+
+}
+
+.red-pin {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 200px;
+}
